@@ -80,6 +80,18 @@ Visit `http://localhost:3000` in your browser.
 
 ---
 
+## ☁️ Deploying to Vercel (استقرار روی ورسل)
+
+The repository is pre-configured for instant zero-configuration deployment to Vercel:
+
+1. Import your GitHub repository into [Vercel](https://vercel.com).
+2. Framework Preset will be automatically detected as **Vite**.
+3. Under **Environment Variables**, add:
+   - `GEMINI_API_KEY`: Your Google Gemini API key.
+4. Click **Deploy**. Vercel will build the frontend via Vite (`dist`) and automatically deploy `/api/generate` and `/api/health` as Vercel Serverless Functions.
+
+---
+
 ## 📂 Project Structure
 
 ```text
