@@ -1,0 +1,6 @@
+{
+  "name": "ScopeDraft",
+  "description": "AI-powered project scope and proposal generator for freelance developers and software agencies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
